@@ -26,5 +26,9 @@ $ kubectl logs pod-for-logs -c nginx -f
 $ kubectl logs pod-for-logs -c nginx -f
 $ curl 192.168.198.58:80
 
+6. Check logs for usage of resource for Pod and Node
+$ kubectl top pod
+$ kubectl top node
+
   ```
   *As Root*
