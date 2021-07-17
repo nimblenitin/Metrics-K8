@@ -24,7 +24,7 @@ $ kubectl logs pod-for-logs -c nginx -f
 
 5. Make a get request with any worker node and check whether the request is logged on a live basis
 $ kubectl logs pod-for-logs -c nginx -f
-$ curl 192.168.198.58:80
+$ curl <IP address>:80
 
 6. Check logs for usage of resource for Pod and Node
 $ kubectl top pod
